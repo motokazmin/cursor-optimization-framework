@@ -1,0 +1,46 @@
+# Dependencies
+node_modules/
+vendor/
+venv/
+.venv/
+__pycache__/
+
+# Build outputs
+dist/
+build/
+target/
+bin/
+obj/
+
+# Logs & temp
+*.log
+logs/
+*.tmp
+*.temp
+.cache/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+
+# Git history
+.git/
+
+# Test coverage
+coverage/
+.nyc_output/
+htmlcov/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Cursor - не тянуть в контекст
+.cursor/analysis/
+.cursor/plans/
+.cursor/snapshots/
